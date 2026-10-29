@@ -1,0 +1,11 @@
+name = "chevra"
+main = "worker_single.js"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "chevra-db"
+database_id = "8759c618-76df-43ac-8922-2937c457e165"
+
+[triggers]
+crons = ["0 5 * * *"]
